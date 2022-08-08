@@ -1,0 +1,131 @@
+.user_article {
+    border: 1px solid #fff;
+    padding: 60px 5px;
+    background-color: #fff;
+    color: grey;
+    position: relative;
+    margin-top: -300px;
+}
+
+.dashboard_header {
+    margin-top: 4em;
+}
+
+@media(min-width: 540px) {
+    .dashboard_header {
+        margin-top: 5.5em;
+    }
+}
+
+@media(min-width: 541px) {
+    .dashboard_header {
+        margin-top: 4em;
+    }
+}
+
+.Img {
+    width: 50%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.user_header {
+    margin-left: 30%;
+    margin-right: 45%;
+    margin-bottom: 50px;
+}
+
+@media(max-width: 499px) {
+    .user_article {
+        border: 1px solid #fff;
+        box-shadow: 1px 3px 5px #fff;
+        padding: 10px 5px;
+        background-color: #fff;
+        color: grey;
+        position: relative;
+        margin-top: -130px;
+    }
+    
+    .Img {
+        width: 90%;
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .user_header {
+        margin-left: 12%;
+        margin-right: 40%;
+    }
+}
+
+@media(max-width: 280px) {
+    .user_article {
+        border: 1px solid #fff;
+        box-shadow: 1px 3px 5px #fff;
+        padding: 10px 5px;
+        background-color: #fff;
+        color: grey;
+        position: relative;
+        margin-top: -110px;
+        font-size: 10px;
+    }
+    
+    .Img {
+        width: 90%;
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .user_header {
+        margin-left: 12%;
+        margin-right: 40%;
+    }
+}
+
+@media(min-width: 540px) {
+    .user_article {
+        border: 1px solid #fff;
+        box-shadow: 1px 3px 5px #fff;
+        padding: 10px 5px;
+        background-color: #fff;
+        color: grey;
+        position: relative;
+        margin-top: -330px;
+        font-size: 19px;
+    }
+    
+    .Img {
+        width: 90%;
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .user_header {
+        margin-left: 12%;
+        margin-right: 40%;
+    }
+}
+
+@media(min-width: 500px) {
+    .user_article {
+        border: 1px solid #fff;
+        box-shadow: 1px 3px 5px #fff;
+        padding: 70px 5px;
+        background-color: #fff;
+        color: grey;
+        position: relative;
+        margin-top: -300px;
+    }
+    
+    .Img {
+        width: 70%;
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .user_header {
+        margin-left: 18%;
+        margin-right: 40%;
+    }
+}
+

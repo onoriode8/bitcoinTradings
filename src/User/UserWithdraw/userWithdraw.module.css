@@ -1,0 +1,68 @@
+
+.bankText {
+    background-color: blue; 
+    color: #fff;
+    padding: 20px;
+}
+
+.bankstyle {
+    color: #fff;
+}
+
+.textContainer {
+    margin-left: 30%;
+    margin-right: 30%;
+    color: #fff;
+}
+
+.bitcoinText {
+    background-color: rgba(207, 207, 7, 0.863); 
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media(max-width: 540px) {
+    .bankContainer {
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+
+    .bankText {
+        background-color: blue; 
+        color: #fff;
+        padding: 10px 3px;
+        font-size: 12px;
+    }
+
+    .bitcoinText {
+        background-color: rgba(207, 207, 7, 0.863); 
+        color: #fff;
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media(min-width: 541px) {
+    .bankContainer {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
+
+.container {
+    border: 1px solid grey;
+    padding: 16px 8px;
+    margin-left: 30%;
+    margin-right: 30%;
+    /* box-shadow: 1px 2px 0px 1px #eee; */
+}
+
+@media (max-width: 539px) {
+    .container {
+        border: 1px solid grey;
+        padding: 16px 8px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}

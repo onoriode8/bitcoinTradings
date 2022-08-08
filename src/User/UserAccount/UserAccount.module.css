@@ -1,0 +1,187 @@
+body {
+    background-image: url("https://media.istockphoto.com/photos/bitcoin-picture-id1145592947?k=20&m=1145592947&s=612x612&w=0&h=2Dwg5QPGB-UljX35NY6jj1OzIpx3oycyHZUvElMEgkM=");
+    background-repeat: no-repeat;
+    z-index: 50;
+    background-size: 300vh 220vh;
+}
+
+@media(max-width: 540px) {
+    body {
+        background-size: 130vh 120vh;
+    }
+}
+
+.bitcoin_container {
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-bottom: 20px;
+}
+
+.bitcoin {
+    margin-bottom: 2em; 
+    font-family: fantasy; 
+    margin-top: 6em; 
+    color: #fff;
+}
+
+@media(max-width: 540px) {
+    .bitcoin_container {
+        border: 1px solid #fff;
+        margin-left: 8%;
+        margin-right: 8%;
+        padding-bottom: 20px;
+        background-color: #fff;
+    }
+    .bitcoin {
+        color: black;
+    }
+}
+
+.scancode {
+    width: 400px;
+}
+
+@media(max-width: 540px) {
+    .scancode {
+        width: 250px;
+    }
+}
+
+@media(min-width: 541px) {
+    .bitcoin_container {
+        border: 1px solid #fff;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-bottom: 20px;
+    }
+}
+
+.bitcoin_button {
+    width: 10%; 
+    color: #fff;
+    padding: 3px 0px;
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 1em;
+}
+
+@media(max-width: 540px) {
+    .bitcoin_button {
+        width: 30%;
+        padding: 2px 3px;
+        margin-top: 10px;
+    }
+}
+
+.image_funds {
+    width: 30%; 
+    height: 50%;
+    border-radius: 2em;
+}
+
+@media(max-width: 540px) {
+    .image_funds {
+        width: 60%; 
+        height: 50%;
+        border-radius: 1em;
+    } 
+}
+
+@media(min-width: 541px) {
+    .image_funds {
+        width: 40%; 
+        height: 50%;
+        border-radius: 1em;
+    } 
+}
+
+.show_BTC {
+    border: 1px solid #ccc;
+    padding: 30px 20px;
+    margin-top: 20%;
+    margin-left: 22%;
+    margin-right: 22%;
+    position: relative;
+    z-index: 120;
+    background-color: #fff;
+    box-shadow: 2px 3px 3px 0px #fff;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media(max-width: 500px) {
+    .show_BTC {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}
+
+.btc_text {
+    padding: 15px 0px;
+}
+
+.btc_address {
+    padding: 10px 0px;
+    background-color: green;
+    box-sizing: border-box;
+    color:#fff;
+    width: 103%;
+}
+
+
+
+@media(max-width: 375px) {
+    .btc_address {
+        /* width: 109%; */
+        margin-left: -15px;
+        margin-right: 2px;
+        width: 109%;
+    }
+    .show_BTC {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+
+@media(max-width: 540px) {
+    .btc_address {
+        /* width: 109%; */
+        margin-left: -15px;
+        margin-right: 2px;
+        width: 105%;
+    }
+    .show_BTC {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+
+@media(max-width: 360px) {
+    .btc_address {
+        /* width: 109%; */
+        margin-left: -20px;
+        margin-right: 1px;
+        width: 114%;
+    }
+    .show_BTC {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+
+@media (max-width: 500px) {
+    .btc_address {
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+.fund {
+    padding: 5px 0px;
+}
+
+.btc1 {
+    text-align: center;
+    transition: all 5s ease-out;
+}
+

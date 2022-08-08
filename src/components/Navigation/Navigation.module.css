@@ -1,0 +1,121 @@
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    background-color: rgb(94, 94, 247);
+    border-bottom: 3px solid rgb(94, 94, 247);
+    border-right: 2px solid rgb(94, 94, 247);
+    padding: 2px 10px;
+    position: relative;
+    box-shadow: 1px 3px 5px 3px white;
+    margin-bottom: 5px;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 1s ease;
+}
+
+
+@media screen and (max-width: 540px) {
+    ul {
+        display: block;
+    }
+    .list {
+        display: block;
+        margin: 15px;
+        text-align: center;
+    }
+}
+
+.icons {
+        display: flex;
+        justify-content: space-between;
+        background-color: #fff;
+}
+
+.cryptoTrades {
+        color: #fff;
+        margin-top: 2em;
+        margin-right: 20px;
+}
+
+/* @media screen and (max-width: 280px) {
+    .cryptoTrades {
+        font-size: 13px;
+
+    }
+} */
+
+.menu {
+        font-size: 1.5em; 
+        background-color: rgb(241, 158, 4);
+        color: #fff;
+        padding: 5px 8px;
+        margin-top: 23px;
+        cursor: pointer;
+        margin-right: 20px;
+}
+
+@media screen and (min-width: 541px) {
+    .menu {
+        display: none;
+    }
+}
+
+.list {
+    margin: 15px;
+    text-align: center;
+}
+
+.home {
+    text-decoration: none; 
+    color: #ffff;
+}
+
+.about {
+    text-decoration: none; 
+    color: #ffff;
+}
+
+.contact {
+    text-decoration: none; 
+    color: #ffff;
+}
+
+.login {
+    text-decoration: none; 
+    color: #ffff;
+}
+
+.register {
+    text-decoration: none; 
+    color: #ffff;
+}
+
+@media screen and (max-width: 499px) {
+    .list {
+        margin: 5px;
+        text-align: center;
+    }
+    .home {
+        font-size: 10px;
+
+    }
+    
+    .about {
+        font-size: 10px;
+    }
+    
+    .contact {
+        font-size: 10px;
+    }
+    
+    .login {
+        font-size: 10px;
+    }
+    
+    .register {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,152 @@
+.loginButton {
+    cursor: pointer;
+    padding: 16px 20px;
+    margin-top: 40px; 
+    color:#fff; 
+    background-color: green;
+}
+
+
+.inputs {
+    width: 50%;
+    padding: 15px 10px;
+    margin: 20px 0px;
+    display: flex;
+    margin-left: 25em;
+}
+
+/* input for small adjustment screen */
+
+@media(max-width: 375px) {
+    .inputs {
+        width: 57%;
+        margin-left: 60px;
+        padding: 10px 8px;
+    }
+}
+
+@media(max-width: 414px) {
+    .inputs {
+        width: 57%;
+        margin-left: 82px;
+        padding: 10px 8px;
+    }
+}
+
+@media(max-width: 390px) {
+    .inputs {
+        width: 57%;
+        margin-left: 79px;
+        padding: 10px 8px;
+    }
+}
+
+@media(max-width: 393px) {
+    .inputs {
+        width: 57%;
+        margin-left: 80px;
+        padding: 10px 8px;
+    }
+}
+
+@media(max-width: 430px) {
+    .inputs {
+        width: 57%;
+        margin-left: 80px;
+        padding: 10px 8px;
+    }
+}
+
+@media(max-width: 460px) {
+    .inputs {
+        width: 57%;
+        margin-left: 85px;
+        padding: 10px 8px;
+    }
+}
+
+@media(max-width: 432px) {
+    .inputs {
+        width: 57%;
+        margin-left: 82px;
+        padding: 10px 8px;
+    }
+}
+
+@media(max-width: 422px) {
+    .inputs {
+        width: 57%;
+        margin-left: 82px;
+        padding: 10px 8px;
+    }
+}
+
+@media(max-width: 360px) {
+    .inputs {
+        width: 57%;
+        margin-left: 70px;
+        padding: 10px 8px;
+    }
+}
+
+@media(max-width: 418px) {
+    .inputs {
+        width: 57%;
+        margin-left: 78px;
+        padding: 10px 8px;
+    }
+}
+
+@media(max-width: 280px) {
+    .inputs {
+        width: 57%;
+        margin-left: 55px;
+        padding: 10px 8px;
+    }
+}
+
+/* for bigger screen size */
+
+@media(min-width: 540px) {
+    .inputs {
+        width: 57%;
+        margin-left: 104px;
+        padding: 10px 8px;
+    }
+}
+
+@media screen and (min-width: 541px) {
+    .inputs {
+        width: 57%;
+        margin-left: 150px;
+        padding: 10px 8px;
+    }
+}
+
+@media screen and (min-width: 912) {
+    .inputs {
+        width: 57%;
+        margin-left: 200px;
+        padding: 10px 8px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .inputs {
+        width: 57%;
+        margin-left: 210px;
+        padding: 10px 8px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .inputs {
+        width: 57%;
+        margin-left: 220px;
+        padding: 10px 8px;
+    }
+    .sign {
+        text-align: center;
+        margin-left: 10%;
+    }
+}

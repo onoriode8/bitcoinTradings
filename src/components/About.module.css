@@ -1,0 +1,146 @@
+.about {
+    background-color: rgb(94, 94, 247);
+    color: #fff;
+    text-align: center;
+    box-shadow: 0px 2px 3px black;
+    border-radius: 1em;
+    /* position: relative;
+    left: 100%;
+    right: 100%; */
+    border: 1px solid black;
+}
+
+@media(max-width: 540px) {
+    .about {
+        font-size: 1em;
+    }
+    .website {
+        font-size: 0.7em;
+    }
+    /* .Img {
+        width: 30px;
+        height: 20px; 
+    } */
+    h1 {
+        font-size: 1em;
+    }
+    
+}
+
+.plans {
+    display: flex;
+    width: 100%;
+    transition: all 1s;
+}
+
+@media(max-width: 540px) {
+    .plans {
+        width: 120%;
+    }
+}
+
+.Img {
+    width: 396px;
+    height: 256px;
+    transition: all 1s; 
+}
+
+.Img :hover {
+    transform: scale(1.1)
+}
+
+.plans :hover {
+    background-color: rgb(62, 62, 173);
+    color: #fff;
+    transform: scale(1.1);
+}
+/*  for silver */
+.silver {
+    background-color:#fff;
+    padding: 20px 16px;
+    margin: 3em 10em;
+    width: 20%;
+    box-shadow: 1px 3px 5px 2px grey;
+}
+
+.silverMinimum {
+    text-align: center;
+    margin: 25px 0px;
+    color: grey;
+}
+
+.silverProfit {
+    text-align: center; 
+    margin-top: 40px; 
+    color: grey;
+}
+
+/* for gold */
+.gold {
+    background-color:#fff;
+    padding: 20px 16px;
+    margin: 50px -110px;
+    width:20%;
+    box-shadow: 1px 3px 5px 2px grey;
+}
+
+.goldMinimum {
+    text-align: center;
+    margin: 25px 0px;
+    color: grey;
+}
+
+.goldProfit {
+    text-align: center;
+    margin-top: 40px; 
+    color: grey;
+}
+
+/* for premium */
+.premium {
+    background-color:#fff;
+    padding: 20px 16px;
+    margin: 3em 10em;
+    width:20%;
+    box-shadow: 1px 3px 5px 2px grey;
+}
+
+.premiumMinimum {
+    text-align: center; 
+    margin: 25px 0px; 
+    color: grey;
+}
+
+.premiumProfit {
+    text-align: center; 
+    margin-top: 40px; 
+    color: grey;
+}
+
+/* testimonials */
+
+.testimonials {
+    text-align: center; 
+    font-size: 3em; 
+    color: grey; 
+    font-family: fantasy;
+}
+
+.silverImg {
+    width: 82px; 
+    height: 56px; 
+    text-align: center;
+}
+
+.goldImg {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.premiumImg {
+    width: 50px; 
+    height: 50px; 
+    text-align: center;
+}
+
